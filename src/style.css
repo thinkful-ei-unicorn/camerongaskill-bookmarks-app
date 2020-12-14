@@ -1,0 +1,20 @@
+main {
+    text-align: center;
+    background-image: linear-gradient(to bottom right, #003399, #33cccc);
+}
+
+.hidden {
+    display: none;
+}
+
+.js-bookmark-list {
+    background-color: #808080a4;
+}
+
+/* For desktop version */
+@media all and (min-width:600px) {
+    main {
+        margin: 0;
+    }
+
+}
